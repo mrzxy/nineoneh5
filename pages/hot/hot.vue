@@ -3,7 +3,7 @@
 		<block v-for="(list, index) in lists" :key="index">
 			<view class="row">
 				<view class="card card-list2" v-for="(item,key) in list" @click="goDetail(item)" :key="key">
-					<image class="card-img card-list2-img" :src="item.image"></image>
+					<image class="card-img card-list2-img" :src="item.Image"></image>
 					<text class="card-num-view card-list2-num-view"></text>
 					<view class="card-bottm row">
 						<view class="car-title-view row">
