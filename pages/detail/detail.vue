@@ -46,7 +46,7 @@
 					} else {
 						// that.url = "http://img.sfzykj.com//2012312/1599208332773438.mp4"
 						that.show = true
-						that.url = ret.data.url
+						that.url = ret.data.uri
 		
 						that.author = ret.data.author
 						that.duration = ret.data.duration
