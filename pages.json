@@ -8,6 +8,13 @@
 			}
 		},
 		{
+			"path": "pages/hot/search",
+			"style": {
+				"navigationBarTitleText": "搜索页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
 				//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 				"path": "pages/new/new",
 				"style": {
